@@ -1,10 +1,12 @@
 <?php
 
+    include('config/dbcon.php');
+    
     include('helper/header.php');
 
 ?>
 <div class="container-fluid px-4">
-    <h1 class="mt-4">Dashboard</h1>
+    <h1 class="mt-4">Dashboard | Admin</h1>
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item active">Dashboard</li>
     </ol>
